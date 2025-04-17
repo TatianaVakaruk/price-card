@@ -28,7 +28,7 @@ body {
 
     &__second {
         position: relative;
-        top: 15px;
+        top:15px;
     }
 
     &__options-list-item {
@@ -94,7 +94,7 @@ body {
     &__description {
         padding-left: 26px;
         padding-right: 26px;
-        margin-bottom: 55px;
+        margin-bottom: 40px;
         line-height: 18px;
         font-size: 15px;
         text-align: center;
@@ -105,7 +105,7 @@ body {
     &__options-list {
         padding: 0;
         margin: 0;
-        margin-bottom:43px;
+        margin-bottom:40px;
         
 
     }
@@ -128,21 +128,29 @@ body {
         font-size: 14px;
         color: $white;
         cursor: pointer;
+        
+        
 
         &_green {
             background-color: $green;
+            position:relative;
+            bottom:28px;
+            
+            
         }
 
         &_blue {
             background-color: $blue;
             margin-left: 112px;
-            margin-top:20px;
+           
 
         }
 
         &_orange {
             background-color: $orange;
             cursor: pointer;
+            position:relative;
+            bottom:28px;
         }
     }
 }
