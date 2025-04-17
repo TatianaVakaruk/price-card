@@ -9,8 +9,6 @@ body {
 .container {
   display: flex;
   color: #fff;
-  justify-content: center;
-  text-align: center;
 }
 
 .price-card {
