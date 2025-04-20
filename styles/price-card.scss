@@ -103,7 +103,7 @@ body {
         font-size: 15px;
         text-align: center;
         position:relative;
-        bottom:12px;
+        bottom:14px;
 
         &_second {
             margin-bottom: 50px;
@@ -113,10 +113,12 @@ body {
     &__options-list {
         padding: 0;
         margin: 0;
+        position:relative;
+        bottom:10px;
 
         &_second {
             position: relative;
-            bottom: 10px;
+            bottom: 20px;
         }
     }
 
