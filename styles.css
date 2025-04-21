@@ -169,8 +169,7 @@ body {
 }
 
 span {
-  position: relative;
-  bottom: 20px;
+  margin-bottom: 40px;
 }
 
 * {

@@ -116,6 +116,7 @@ body {
         margin: 0;
         position:relative;
         bottom:13px;
+    
         
 
         &_second {
@@ -203,9 +204,6 @@ body {
         background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
     }
 }
-
-span {
-    position: relative;
-    bottom: 20px;
-    
+span{
+    margin-bottom:40px;
 }
