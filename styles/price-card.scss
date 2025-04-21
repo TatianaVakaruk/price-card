@@ -114,13 +114,15 @@ body {
     &__options-list {
         padding: 0;
         margin: 0;
+        position:relative;
+        bottom:13px;
         
     
         
 
         &_second {
             position: relative;
-            bottom: 13px;
+            bottom: 23px;
         }
     }
  
