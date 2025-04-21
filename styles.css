@@ -92,12 +92,10 @@ body {
 .price-card__options-list {
   padding: 0;
   margin: 0;
-  position: relative;
-  bottom: 13px;
 }
 .price-card__options-list_second {
   position: relative;
-  bottom: 23px;
+  bottom: 13px;
 }
 .price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
@@ -169,7 +167,8 @@ body {
 }
 
 span {
-  margin-bottom: 40px;
+  position: relative;
+  bottom: 23px;
 }
 
 * {

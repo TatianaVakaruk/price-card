@@ -114,14 +114,13 @@ body {
     &__options-list {
         padding: 0;
         margin: 0;
-        position:relative;
-        bottom:13px;
+        
     
         
 
         &_second {
             position: relative;
-            bottom: 23px;
+            bottom: 13px;
         }
     }
  
@@ -205,5 +204,6 @@ body {
     }
 }
 span{
-    margin-bottom:40px;
+    position:relative;
+    bottom:23px;
 }
