@@ -1,16 +1,15 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+   
     margin: auto;
     min-height: 100vh;
 }
 
 .container {
     display: flex;
+    margin:auto;
     color: $white;
-    justify-content: center;
-    align-items: center;
+    
 
 
 }
@@ -115,15 +114,16 @@ body {
         margin: 0;
         position:relative;
         bottom:13px;
+        
 
         &_second {
             position: relative;
             bottom: 23px;
         }
     }
+ 
 
-
-    &__options-list-item:nth-child(odd) {
+        &__options-list-item:nth-child(odd) {
         background-color: $light-black;
         line-height: 18px;
         font-size: 15px;
@@ -204,5 +204,5 @@ body {
 
 span {
     position: relative;
-    bottom: 20px;
+    bottom: 22px;
 }

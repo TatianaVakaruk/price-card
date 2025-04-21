@@ -1,16 +1,13 @@
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin: auto;
   min-height: 100vh;
 }
 
 .container {
   display: flex;
+  margin: auto;
   color: #fff;
-  justify-content: center;
-  align-items: center;
 }
 
 .price-card {
@@ -171,7 +168,7 @@ body {
 
 span {
   position: relative;
-  bottom: 20px;
+  bottom: 22px;
 }
 
 * {
