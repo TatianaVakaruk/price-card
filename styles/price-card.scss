@@ -1,7 +1,8 @@
 body {
     display: flex;
-   
-    
+   justify-content: center;
+   align-items: center;
+    margin:auto;
     min-height: 100vh;
 }
 
@@ -9,6 +10,9 @@ body {
     display: flex;
     margin:auto;
     color: $white;
+    gap:18px;
+    
+   
     
 
 
@@ -22,7 +26,8 @@ body {
     height: 770px;
     background-color: $grey;
     margin: auto;
-    margin-right: 18px;
+    
+   
 
     &:last-chaild {
         margin-right: 0;

@@ -1,5 +1,7 @@
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   min-height: 100vh;
 }
@@ -8,6 +10,7 @@ body {
   display: flex;
   margin: auto;
   color: #fff;
+  gap: 18px;
 }
 
 .price-card {
@@ -18,7 +21,6 @@ body {
   height: 770px;
   background-color: #334247;
   margin: auto;
-  margin-right: 18px;
 }
 .price-card:last-chaild {
   margin-right: 0;
