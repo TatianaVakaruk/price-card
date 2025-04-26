@@ -1,6 +1,8 @@
-Site link:
+Price cards layout
 
 https://tatianavakaruk.github.io/price-card/
+
+It is works on just desktop
 
 The tech stack is:
 
